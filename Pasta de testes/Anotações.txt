@@ -1,0 +1,54 @@
+Variaveis:
+sinal ( = ) significa 'recebe'
+ a1 = carro1
+ a1 = null (null significa que a variavel esta vazia)
+
+ document.write ("Escreve dentro da tela")
+ alert ("Pop Up de sinalização")
+ prompt ("Pop up de Pergunta")
+ confirm ("Pop up de Ok ou Cancelar")
+ 
+Numeros:
+n1 = 1.5
+2 casas decimais depois do ponto
+n1.toFixed(2)
+Colocar moeda na frente do Numeros
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+Operadores:
+|| = ou
+&& = E
+! = Negação
+
+Operador Ternario
+ teste?verdadeiro:falso
+ 5+1==6?'Verdadeiro':'falso'
+
+Intervalo e Timeout
+ setInterval ('Olá', 1000) //Roda de x Mili
+ setTimeout ("Olá, 1000) //Demora x Mili 
+
+
+nomeVariavel.type = 'text'
+
+Para adicionar uma função em um Botão, por exempo, utilizar
+                                            Esse on click chamará a funcao() quando o botao for clicado.
+<input type="button" value=""NomedoBotão" onclick="funcao()">
+
+para criar a funcao utilizar
+
+function funcao(){
+    console.log("Essa função foi criada.)
+}
+
+
+Array
+
+let variavel = [a,b,c,d,e]
+console.log(variavel)
+    [ a, b, c, d, e ]
+console.log([0])
+
+
+git
+git init -> Inicializa um Reposit no git.

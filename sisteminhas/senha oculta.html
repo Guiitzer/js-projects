@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="senha">Digite sua senha! </label><input type="password" id="senha">
+    <button id="trocar">Mostrar Senha</button>
+
+    <script>
+        let senhaElement = document.getElementById('senha')
+        let trocarElement = document.getElementById('trocar')
+        
+
+    trocarElement.addEventListener('click', function() {
+        if (senhaElement.type === 'text'){
+            senhaElement.type = 'password'
+        } 
+        else
+        {
+            senhaElement.type = 'text'
+        }
+    
+        
+    })
+
+
+
+    </script>
+</body>
+</html>
