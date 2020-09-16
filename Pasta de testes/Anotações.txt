@@ -52,3 +52,6 @@ console.log([0])
 
 git
 git init -> Inicializa um Reposit no git.
+git add . -> Adiciona os arquivos alterados para serem commitados
+git commit -m "Mensagem"
+git push origin master
