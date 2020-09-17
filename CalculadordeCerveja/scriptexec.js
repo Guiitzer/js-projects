@@ -23,7 +23,7 @@
 
       
       
-      let quantidadeQPossoComprar = (moneyValue / precoValue).toFixed(2);
+      let quantidadeQPossoComprar = (moneyValue / precoValue).toFixed();
       let dinheiroQueSobra = (moneyValue % precoValue).toFixed(2);
             
     
