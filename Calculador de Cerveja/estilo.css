@@ -1,7 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(240, 187, 66);
-    font: normal 15pt Arial;
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/One-glass-cup-of-beer_1920x1080.jpg");
+    background-size: cover;
+    font: small-caps 12pt Arial;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+
     
 }
 header{
@@ -9,10 +20,13 @@ header{
 }
 section{
     background: white;
+    font: small-caps 10pt Arial;
     border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
+    padding: 8px;
+    max-width: 500px;
+    width: 100%;
+    min-height: 350px;
+    margin: 20px auto;
     box-shadow: 5px 5px 10px rgba(88, 86, 86, 0.938);
 }
 footer{
@@ -20,7 +34,56 @@ footer{
     color: white;
     font-style: italic;
 }
-.inputs-container input{
-    float: right;
+.inputs-container{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    margin: 20px 0;
+}
+.inputs-container>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.classname {
+    background-color: #f5c06c;
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 3px;
+   
+}
+
+.classname:hover {
+	
+	background-color:#f1ac3f;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}
+
+h1{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(88, 86, 86, 0.938);
+}
+.inicial{
+    font: small-caps 8pt Arial;;
+    color: rgb(93, 93, 93);
+}
+.result{
+    padding: 14px 4px;
+
+}
+
+.result:nth-child(even){
+    background-color: #f1f1c6;
 
 }
