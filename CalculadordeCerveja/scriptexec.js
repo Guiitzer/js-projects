@@ -10,24 +10,22 @@
     //Funções dos botões
     let calcularElement = document.getElementById("calcular")
     calcularElement.addEventListener('click', function () {
-    
+       
+  
         //Converter Preço da lata para R$
       let precoValue = (precoElement.value)
       precoValue = Number(precoValue)
-      let precoValueReal = precoValue.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
       let mlsValue = (mlsElement.value)
       
       //Converter Dinheiro da carteira para R$
       let moneyValue = moneyElement.value
       moneyValue = Number(moneyValue);
 
-      let moneyValueReal = moneyValue.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+      
       
       let quantidadeQPossoComprar = (moneyValue / precoValue).toFixed(2);
       let dinheiroQueSobra = (moneyValue % precoValue).toFixed(2);
-      
-      console.log({ quantidadeQPossoComprar, dinheiroQueSobra})
-      
+            
     
       let limparElement = document.getElementById("Limpar");
     limparElement.addEventListener('click', function(){
